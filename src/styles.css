@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0px;
+    background-image: url("https://elcomercio.pe/resizer/C2uPcJQwLTo7pULZv6e0jq-pHPA=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/YCJUAYDBWBDE7D54RDALAPBYHA.jpg");
+}
