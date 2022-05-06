@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Sonsie+One&display=swap');
+
 body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
     background-image: url("https://elcomercio.pe/resizer/C2uPcJQwLTo7pULZv6e0jq-pHPA=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/YCJUAYDBWBDE7D54RDALAPBYHA.jpg");
 }

@@ -2,7 +2,7 @@ export class Jugador {
 
     id_jugador:number;
     nombre:string;
-    equipo:string;
+    id_equipo_jugador:number;
     nacimiento:string;
     posicion:string;
     goles:number;
@@ -12,10 +12,10 @@ export class Jugador {
     foto:string;
     dorsal:number;
 
-    constructor(id_jugador:number, nombre:string, equipo:string, nacimiento:string, posicion:string, goles:number, asistencias:number, tarjetas_amarillas:number, tarjetas_rojas:number, foto:string, dorsal:number){
+    constructor(id_jugador:number, nombre:string, id_equipo_jugador:number, nacimiento:string, posicion:string, goles:number, asistencias:number, tarjetas_amarillas:number, tarjetas_rojas:number, foto:string, dorsal:number){
         this.id_jugador=id_jugador;
         this.nombre=nombre;
-        this.equipo=equipo;
+        this.id_equipo_jugador=id_equipo_jugador;
         this.nacimiento=nacimiento;
         this.posicion=posicion;
         this.goles=goles;

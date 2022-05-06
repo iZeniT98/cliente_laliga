@@ -10,6 +10,7 @@ import { JugadorComponent } from './components/jugador/jugador.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EscudoComponent } from './components/escudo/escudo.component';
 import { ListadoEscudosComponent } from './components/listado-escudos/listado-escudos.component';
+import { MostrarJugComponent } from './components/mostrar-jug/mostrar-jug.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ListadoEscudosComponent } from './components/listado-escudos/listado-es
     ListadoJugadoresComponent,
     JugadorComponent,
     EscudoComponent,
-    ListadoEscudosComponent
+    ListadoEscudosComponent,
+    MostrarJugComponent
   ],
   imports: [
     BrowserModule,

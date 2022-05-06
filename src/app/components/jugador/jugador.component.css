@@ -4,9 +4,20 @@
     margin-bottom: 10px;
     margin-right: 10px;
     float:left;
+    background-color: rgba(23, 23, 216, 0.575);
+    color: white;
+    border-radius: 7px;
+    
 }
 
 .card-jugador img {
-    width: 250px;
+    width: 300px;
 }
 
+.posicion {
+    font-size: .75em;
+}
+
+.nombre {
+    font-size: 1.1em;
+}

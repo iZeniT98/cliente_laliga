@@ -1,0 +1,12 @@
+<div class="contenedor" *ngIf="(jugador)">
+    <div class="detalles">
+        <div class="imagen">
+            <img [src]="jugador.foto" [alt]="jugador.nombre">
+        </div>
+        <div class="posicion" id="posicion">
+            <h2>{{jugador.posicion}}</h2>
+        <article>{{jugador.goles}}</article>
+        <br>
+        <div class="cierre"><button (click)="limpiar()">Cerrar</button></div>
+        </div>
+    </div>

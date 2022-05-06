@@ -1,5 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Jugador } from 'src/app/models/jugador.model';
+import { SMostrarService } from 'src/app/services/s-mostrar.service';
 
 @Component({
   selector: 'app-jugador',
@@ -8,10 +9,16 @@ import { Jugador } from 'src/app/models/jugador.model';
 })
 export class JugadorComponent implements OnInit {
 
-  @Input() jugador:Jugador = new Jugador(0,"","","","",0,0,0,0,"",0)
-  constructor() { }
+  @Output() jugadorSeleccionado=new EventEmitter<Jugador>();
+  
+  @Input() jugador:Jugador = new Jugador(0,"",0,"","",0,0,0,0,"",0)
+  constructor(private servicioMostrar:SMostrarService) { }
 
   ngOnInit(): void {
+  }
+
+  enviarJugadorSeleccionado(jugador: Jugador){
+    this.servicioMostrar.setJugador(jugador);
   }
 
 }
